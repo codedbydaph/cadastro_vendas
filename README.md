@@ -1,7 +1,7 @@
 # Cadastro de Vendas JS
 Um sistema dinâmico de gerenciamento de vendas desenvolvido com JavaScript Vanilla, HTML5 e CSS3. O projeto permite o registro de vendedores, cálculo automático de descontos e manipulação em tempo real do DOM.
 
-##Funcionalidades
+## Funcionalidades
 
 - **Registro de Vendas:** Captura nome do vendedor e valor bruto.
 - **Cálculo Automático:** Aplica 10% de desconto sobre o valor da venda instantaneamente.
