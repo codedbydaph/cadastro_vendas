@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 32px;
+    color: rgb(253, 132, 152);
+    margin: 10px;
+}
+.preencher{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.btn-cadastrar{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.btn-cadastrar:hover{
+    background-color: rgb(253, 132, 152);
+}
+
+
+h2{
+    font-size: 25px;
+    color: rgb(253, 132, 152);
+    margin: 10px;
+}
+table{
+    border: 1px solid white ;
+}
+th{
+    background-color: rgb(253, 132, 152);
+    padding: 10px;
+    color: white;
+}
+td{
+    padding: 15px;
+    color: rgb(61, 61, 61);
+    background-color: wheat;
+}
+
+.btn-limpar{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(230, 160, 11);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.btn-limpar:hover{
+    background-color: rgb(253, 132, 152);
+}
+.btn-remover{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(163, 8, 34);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.btn-remover:hover{
+    background-color: rgb(253, 132, 152);
+}
+.btn{
+    margin-top: 10px;
+}

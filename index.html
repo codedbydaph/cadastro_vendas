@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Vendas</title>
+    <link rel="icon" href="imagem.png">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cadastro de Vendas</h1>
+
+    <div class="preencher">
+        <input id="nome" type="text" placeholder="Nome do Vendedor" required>
+        <input id="valor" type="number" placeholder="Valor da Venda" required>
+
+        <div>
+            <button onclick="cadastrar()" class="btn-cadastrar">Cadastrar</button>
+        </div>
+    </div>
+    
+    <h2>Lista de Vendas</h2>
+    
+    <div class="tabela">
+        <table id="table">
+            <tr>
+                <th>ID</th>
+                <th>Vendedor</th>
+                <th>Valor</th>
+                <th>Desconto</th>
+                <th>Valor Final</th>
+                <th>Data</th>
+                <th>Ações</th>
+            </tr>
+        </table>
+    </div>
+
+    <div class="btn">
+        <button onclick="limpar()" class="btn-limpar">Limpar Tudo</button>
+        <button onclick="removerUltimo()" class="btn-remover">Remover Último</button>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
